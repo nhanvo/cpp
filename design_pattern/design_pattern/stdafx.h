@@ -9,16 +9,16 @@
 
 #include "singleton.h"
 #include "factory.h"
+#include "abstract_factory.h"
 
 #include <stdio.h>
 #include <tchar.h>
 #include <iostream>
 
-#define STR_IN_CONSTRUCTOR "In constructor ..."
 #define STR_CIRCLE "circle"
 #define STR_SQUARE "square"
-#define STR_I_AM "I am "
-
+#define STR_LOW_END "Low-End"
+#define STR_HIGH_END "High-End"
 using namespace std;
 
 

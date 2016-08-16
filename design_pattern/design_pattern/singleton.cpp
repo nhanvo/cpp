@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "singleton.h"
 
+#define STR_IN_CONSTRUCTOR "In constructor ..."
+
 // Define default value of instance is NULL
 MySingleton* MySingleton::instance = NULL;
 
