@@ -8,7 +8,7 @@ MySingleton* MySingleton::instance = NULL;
  * Constructor
  */
 MySingleton::MySingleton() {
-	cout << "In constructor..." << endl;
+	cout << STR_IN_CONSTRUCTOR << endl;
 }
 
 /*

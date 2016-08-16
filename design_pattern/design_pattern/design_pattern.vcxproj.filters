@@ -16,6 +16,9 @@
     <Filter Include="Source Files\singleton">
       <UniqueIdentifier>{57fb921c-31a2-4527-832d-ca16b5f63fd0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\factory">
+      <UniqueIdentifier>{f1ea82cb-cf9a-4fe3-8ac3-59dd8bd94167}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -30,6 +33,9 @@
     <ClInclude Include="singleton.h">
       <Filter>Source Files\singleton</Filter>
     </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>Source Files\factory</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -40,6 +46,9 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>Source Files\factory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
