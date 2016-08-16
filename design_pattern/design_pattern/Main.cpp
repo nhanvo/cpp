@@ -1,0 +1,13 @@
+// design_pattern.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	MySingleton* obj;
+	obj  = MySingleton::getInstance();
+	getchar();
+	return 0;
+}
+
