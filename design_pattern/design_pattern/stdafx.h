@@ -10,6 +10,7 @@
 #include "singleton.h"
 #include "factory.h"
 #include "abstract_factory.h"
+#include "observer .h"
 
 #include <stdio.h>
 #include <tchar.h>

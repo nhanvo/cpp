@@ -27,6 +27,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	Mobile* mobile_high = myFactory->getMobile(STR_HIGH_END);
 	if(NULL != mobile_high) mobile_high->PrintSpecs();
 
+	// Observer test
+	MyObservable* observable = MyObservable::GetInstance();
+	MyClass* myclass = new MyClass();
+
+	observable->Trigger();
 	getchar();
 	return 0;
 }

@@ -22,6 +22,9 @@
     <Filter Include="Source Files\abstract_factory">
       <UniqueIdentifier>{e819c973-0850-4177-a52f-f32a6354c7b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\observer">
+      <UniqueIdentifier>{43e81d40-8640-42db-a881-f852608004e9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -42,6 +45,9 @@
     <ClInclude Include="abstract_factory.h">
       <Filter>Source Files\abstract_factory</Filter>
     </ClInclude>
+    <ClInclude Include="observer .h">
+      <Filter>Source Files\observer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -58,6 +64,9 @@
     </ClCompile>
     <ClCompile Include="abstract_factory.cpp">
       <Filter>Source Files\abstract_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="observer .cpp">
+      <Filter>Source Files\observer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
